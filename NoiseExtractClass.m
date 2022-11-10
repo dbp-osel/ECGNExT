@@ -16,8 +16,6 @@ Electrocardiology, 2018. 51(6, Supplement): p. S56-S60.
 
 If you have found this software useful, please consider citing our publication.
 
-Public domain license
-
 Disclaimer:
 This software and documentation (the "Software") were developed at the Food
 and Drug Administration (FDA) by employees of the Federal Government in the
