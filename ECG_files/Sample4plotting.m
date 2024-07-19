@@ -3,6 +3,8 @@ function Sample4plotting
 % during first No-Motion period (Seg1_NoMot). To plot recordings from other
 % sessions, simply modify the line below to assign a different field name.
     sampField = 'Seg1_NoMot';
+% Create the "ECGs" directory within the current directory and dowload the
+% ECG mat files into it befor running this function.
     ecgDir = 'ECGs';
     [datafilenames, L] = FileHandling(ecgDir);
     cleanFlg = true;
