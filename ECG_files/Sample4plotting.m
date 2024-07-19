@@ -21,13 +21,13 @@ function Sample4plotting
 end
 
 function xx = SamplePlot(ecgStruct, cleanFlg, sampField, fileName)
-    ECG = ecgStruct.ECG.(sampField);
-    ECGn = ecgStruct.ECGn.(sampField);
+    ECG = ecgStruct.ECG_REF.(sampField);
+    ECGn = ecgStruct.ECG_Wrist.(sampField);
     segInd = ecgStruct.ecgSegInd.(sampField);
     fs =  ecgStruct.fs;
     if cleanFlg
-        ECG = ecgStruct.ECG.(sampField)(segInd(1):segInd(2));
-        ECGn = ecgStruct.ECGn.(sampField)(segInd(1):segInd(2));
+        ECG = ecgStruct.ECG_REF.(sampField)(segInd(1):segInd(2));
+        ECGn = ecgStruct.ECG_Wrist.(sampField)(segInd(1):segInd(2));
     end
     tVec = (0:length(ECG)-1)/fs;
     ax(1) = subplot(2,1,1);
