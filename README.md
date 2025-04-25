@@ -13,7 +13,7 @@ The ECG data used to analyze the performance of this algorithm is available in t
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# Tool Reference
+# Regulatory Science Tool (RST) Reference
 •	RST Reference Number: RST24IP01.01  
 •	Date of Publication: 08/08/2023  
 •	Recommended Citation: U.S. Food and Drug Administration. (2023). ECG Noise Extraction Tool (ECGNExT) (RST24IP01.01). https://cdrh-rst.fda.gov/ecg-noise-extraction-tool-ecgnext  
